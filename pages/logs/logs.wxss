@@ -1,0 +1,19 @@
+/*
+ * 
+ * WordPres版微信小程序
+ * author: David Ding
+ * organization: DingStudio  www.watch-life.net
+ * github:    https://github.com/Wx40ddd/winxin-app-watch-life.net
+ * 技术支持微信号：Wx40ddd
+ * 开源协议：MIT
+ * Copyright (c) 2017 https://www.watch-life.net All rights reserved.
+ */
+
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}

@@ -1,0 +1,4 @@
+<template name="tempCopyright">
+
+<view>  © 2018 WShop  </view>
+</template>
