@@ -70,7 +70,7 @@ Page({
         }
         else {
             self.setData({
-                url: 'https://' + config.getDomain
+                url: 'http://www.dingstudio.cn'
             });
         }
 
