@@ -2,17 +2,17 @@
  * 
  * WordPres版微信小程序
  * author: David Ding
- * organization: DingStudio  www.watch-life.net
- * github:    https://github.com/Wx40ddd/winxin-app-watch-life.net
+ * organization: DingStudio  www.dingstudio.cn
+ * github:    https://github.com/ddawx123/wxapp-wordpress
  * 技术支持微信号：Wx40ddd
  * 开源协议：MIT
- * Copyright (c) 2017 https://www.watch-life.net All rights reserved.
+ * Copyright (c) 2017 http://www.dingstudio.cn All rights reserved.
  */
 
 
 
 //配置域名,域名只修改此处。
-//如果wordpress没有安装在网站根目录请加上目录路径,例如："www.watch-life.net/blog"
+//如果wordpress没有安装在网站根目录请加上目录路径,例如："www.dingstudio.cn/blog"
 var DOMAIN = "api.blog.dingstudio.cn";
 var MINAPPTYPE="0";//小程序的类型，如果是企业小程序请填：0 ，如果是个人小程序请填：1
 var WEBSITENAME="DingStudio"; //网站名称
@@ -24,7 +24,7 @@ var INDEXLISTTYPE="all" //首页显示所有分类
 //var INDEXLISTTYPE ="1" //指定首页显示分类的id
 var PAYTEMPPLATEID = 'hzKpxuPF2rw7O-qTElkeoE0lMwr0O4t9PJkLyt6v8rk';//赞赏消息模版id
 var REPLAYTEMPPLATEID = 'IiAVoBWP34u1uwt801rI_Crgen7Xl2lvAGP67ofJLo8';//回复评论消息模版id
-var ZANIMAGEURL = 'https://www.watch-life.net/images/2017/07/zsm400.jpg';//微信赞赏的图片链接，用于个人小程序的赞赏
+var ZANIMAGEURL = 'http://www.dingstudio.cn/images/2017/07/zsm400.jpg';//微信赞赏的图片链接，用于个人小程序的赞赏
 var LOGO = "../../images/logo-icon.png"; // 网站的logo图片
 var POSTERIMGURL ="../../images/logo700.png"; //生成海报如果没有首图，使用此处设置的图片作为海报图片。
 //设置downloadFile合法域名,不带https ,在中括号([])里增加域名，格式：{id=**,domain:'www.**.com'}，用英文逗号分隔。
